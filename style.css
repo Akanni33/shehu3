@@ -1,0 +1,100 @@
+
+body {
+    background-image: linear-gradient(#636162, #b1afaf);
+    height: 130vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+*{
+    margin: 0px; padding: 0px; font-family: 'montserrat', sans-serif;
+}
+.main{
+    background-color: #fbb03b;
+    height: auto;
+    width: 600px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.left{
+    background-color: #fbb03b;
+    width: 70px;
+    height:auto;
+    float: left;
+}
+.profile-img{
+    height: 202px;
+    width: 180px;
+    background-color: #addd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 10px solid #fbb03b;
+    box-shadow: 6px 7px 0px 5px #fbb03b73;
+
+}
+.profile-img img{
+ width: 178px;
+ border-radius: 50%;
+ margin-left: 3px;
+ margin-bottom: 12px;
+ height: 199px;
+}
+.box-1{
+    position: relative;
+}
+.heading{
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: #fbb03b;
+    text-align: left;
+    padding-left: 20px ;
+    margin-right: -15px;
+    width: 140px;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+.p1{
+    padding: 9px 10px;
+    font-size: 13px;
+}
+.icons1{
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    vertical-align: sub;
+}
+.school-attended{
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 0px 10px;
+
+}
+.primary{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+.secondary{
+    width: 90%;
+    background-color: white;
+}
+.institute{
+    width: 90%;
+    background-color: white;
+}
+.body .pic1 img{
+     margin-left: 120px;
+     margin-right:300px ;
+     border-radius: 120px;
+}
